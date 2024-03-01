@@ -24,16 +24,7 @@
         <li>Python installed on your system.</li>
         <li>Required Python packages installed.</code>.</li>
     </ul>
-    <h3>Steps to Run</h3>
-    <ol>
-        <li><strong>Define Classes</strong>: Refer to the provided Knesset corpus and assign classes based on the source of the protocol.</li>
-        <li><strong>Partitioning</strong>: Use the script <code>partitioning_script.py</code> to partition the data into classification units.</li>
-        <li><strong>Class Balancing</strong>: Implement down-sampling to balance the classes.</li>
-        <li><strong>Feature Vector Creation</strong>: Utilize Bag of Words or TF-IDF to create feature vectors.</li>
-        <li><strong>Training</strong>: Train classifiers using KNearestNeighbors and SVM on the feature vectors.</li>
-        <li><strong>Classification</strong>: Classify new text chunks using the trained classifiers.</li>
-    </ol>
-    <h3>Example</h3>
+    <h3>Command</h3>
     <pre><code>python knesset_protocol_classification.py</code></pre>
 </section>
 
