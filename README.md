@@ -34,9 +34,7 @@
         <li><strong>Classification</strong>: Classify new text chunks using the trained classifiers.</li>
     </ol>
     <h3>Example</h3>
-    <pre><code>python partitioning_script.py
-python train_classifier.py
-python classify_text.py</code></pre>
+    <pre><code>python knesset_protocol_classification.py</code></pre>
 </section>
 
 <footer>
